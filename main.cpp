@@ -7,7 +7,6 @@ using namespace std;
 
 void participantes();
 
-<<<<<<< HEAD
 bool validarSimbolos(char caracter, char lenguaje[])
 {
     for (size_t i = 0; i < strlen(lenguaje); i++)
@@ -70,26 +69,4 @@ void participantes()
     std::cout << std::endl
               << "Jorge Verdugo" << std::endl; // Reemplazar por su nombre
 };
-=======
-int main(int argc, char** argv) {
-    cout << "Chao, mundo" << endl;
-    if (argc > 1) {
-        cout << argv[1] << endl;
-    } else {
-        participantes();
-    }
 
-    return EXIT_SUCCESS;
-}
-
-void participantes() {
-    cout << endl
-         << "=== Taller 01 ===" << endl;
-    cout << endl
-         << "Sebastian Albornoz";
-    cout << endl
-         << "Sebastian Santelices";
-    cout << endl
-         << "Jorge Verdugo" << endl;
-}
->>>>>>> bb28dd439bfccccfbf63bbb5d3d84640def15b53
